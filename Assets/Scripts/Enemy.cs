@@ -23,5 +23,9 @@ public class Enemy : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        if (collision.GetComponent<Deathzone>())
+        {
+            Destroy(gameObject);
+        }
     }
 }

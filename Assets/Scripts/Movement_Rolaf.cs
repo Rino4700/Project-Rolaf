@@ -8,10 +8,14 @@ public class Movement_Rolaf : MonoBehaviour
     public LayerMask Ground;
     public float rayDistance = 1.5f;
     private Rigidbody2D rb;
+    private Animator animator;
+    SpriteRenderer rend;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        rend = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -24,16 +28,25 @@ public class Movement_Rolaf : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
+            animator.Play("WalkAnimation");
+            rend.flipX = true;
             transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
         }
-        if (Input.GetKey(KeyCode.D))
+        else if(Input.GetKey(KeyCode.D))
         {
+            animator.Play("WalkAnimation");
+            rend.flipX = false;
             transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
+        }
+        else
+        {
+            animator.Play("IdleAnimation");
         }
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             rb.AddForce(new Vector2(0, 2000));
         }
+        
     }
 
         bool IsGrounded()

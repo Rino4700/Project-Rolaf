@@ -1,0 +1,2555 @@
+fileFormatVersion: 2
+guid: 1101fd669da8ca14b89c816c8a396c54
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile Personaje_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 950
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3781ed94b1186ee46a954df021c024c7
+      internalID: 637295136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 950
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8112cceffa80f504e9775099b974c464
+      internalID: 1016815658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 950
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6944635153393d34a850107ead2d0346
+      internalID: 1505633851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 950
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624877f5c0743a34089db97d293969fc
+      internalID: -978340320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 950
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a51fe4b871222b40b026671b8adfee7
+      internalID: 787244460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 950
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422347e4c0b2d9940aed2a5c184ae567
+      internalID: -1020445959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_6
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 950
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e333ca97a6327459f745c64dcc6f53
+      internalID: -22629653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_7
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 951
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f3eac3ed028d1468471452a814f346
+      internalID: 1892826964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 820
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a6bc62a0e10824f9f522bfb2fa0032
+      internalID: -738799216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 820
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983d8fafd72d0324fbdb3bc77f064ece
+      internalID: -1608980068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 820
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44222d0d78ccb245a9c674ea51338c1
+      internalID: 2016054775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 820
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dead12e2d4c2b2f4c886563650f86a29
+      internalID: -1061681891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_18
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 820
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff7fed26408c2544a51d4a4aa7436d1
+      internalID: 1285991966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_19
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 819
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea823327b39001c46ac01c6deac8d3cc
+      internalID: -483311795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_20
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 819
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b1d3603310214e80f786f3102ade7
+      internalID: 1284956112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_21
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 820
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9d1584731bc3d40b8dd06a853f78db
+      internalID: -1422986057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_22
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 820
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78503b123108a5741970e67c6319573c
+      internalID: 1763479379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_23
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 820
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1d099da235fa44d8d50ba39f56c832
+      internalID: -710443056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_24
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 820
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eccee0d011caa14486d9e6650fa9023
+      internalID: 1111862340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_25
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 820
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b515cbdfc25fe7d4ebd7f3f7362bd987
+      internalID: -323163274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_30
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 690
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be37441ac635df947acec01fe88e1696
+      internalID: -1223184242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_31
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 690
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35705db7f6c85a448a4f174f982d90e2
+      internalID: 362297241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 690
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54221c0c05da9224fa3c42ac4dfab225
+      internalID: -557575074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 690
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30084a9052d29c41bddeb6b717fe492
+      internalID: -869976680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_34
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 690
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab43a62a079791478bed0640e1fc87f
+      internalID: 1879767754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_35
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 690
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf693ee23401124428e18a45d313faf4
+      internalID: -26426037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_36
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 690
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4d7797aaa8e39478e84dbf1d46d9ec
+      internalID: -1793151556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_37
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 690
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbd9bda408fe054e95140a8cc19e9e2
+      internalID: 1911853367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_38
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 690
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a523f3db500f94b438e8f3359144e44c
+      internalID: -1649933935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_39
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 691
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264b678401a1d3d4cb310e2217ba0741
+      internalID: -1770164553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_40
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 691
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcfe05a3027bf847bfd69d17899c17b
+      internalID: 1046763262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_41
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 691
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99218493c254444ba2cad5b76c7e9aa
+      internalID: 1736832152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_42
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 690
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10e00d8d216a6f4680745da7b8c19e0
+      internalID: -1147897877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_43
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 690
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e4c1ca0ffc062479a7ea078cd3e1df
+      internalID: -1189750354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_44
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 690
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a399cff828267e43ae89e376a293050
+      internalID: 1651157651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_45
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 690
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba70a1febd51647b2f48028f1335e7
+      internalID: -469638549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_46
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 689
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fdb61739e4b224eb4191190851ff1d
+      internalID: 21090213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_47
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 690
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45565f30f0704d44c8523d925927c547
+      internalID: 1043547634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_48
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 690
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8bcf7ca01bc454789f74374dfa2222
+      internalID: -281164356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_49
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 690
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397b3870752e0fe43b0d67eeaa2abb98
+      internalID: 1987949917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_50
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 690
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3382a6181894c0e4fb0145fe598967cd
+      internalID: 1317011896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_57
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 560
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befcc78aca0f43c479c010648adfa1c1
+      internalID: -358768488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_58
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 560
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39f9fd4db4380849abaf6d7410eb07f
+      internalID: 702363341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 560
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f55032d6ee5ae46a60ec73005df9b2
+      internalID: -807155545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_60
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 560
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408afcea69c64c84097175f0e349a886
+      internalID: 972854684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_61
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 560
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5864261f0721e82478b513f3399a691a
+      internalID: -1693800799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_62
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 560
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3e111a2f2fd0344a19d1f67ffaa3c2
+      internalID: 100214593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_63
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 560
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bba3458c9b8584eba1792ba23db04a
+      internalID: 891760450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_64
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 560
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472877b004a38db4cbc8f55458fb8a6f
+      internalID: -1895131315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_65
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 560
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306c716140c53af4a85c0a90fc846149
+      internalID: 1703512742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_66
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 560
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db9815cc0f071645936c9e66c279006
+      internalID: -885567751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_67
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 560
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57fa28e5b93be04da4bb49792e43078
+      internalID: 1276556535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_68
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 560
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0140f9d1f59119e43ae84c5262dea213
+      internalID: 454089158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_69
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 560
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18de01964fc71e1498f900752d2e8bc5
+      internalID: 1863658606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_70
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 560
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e65d0636f23fb4ebfa5986dbda04df
+      internalID: -1069778707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_71
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 560
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b2302b997696248b072d28c1b62dc3
+      internalID: -1991792474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_72
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 560
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48db4604e50fb564bb0d4fc26627e262
+      internalID: 650660707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_79
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 430
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d1580bdc6a2264da4bea51472337cb
+      internalID: 85433272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_80
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 430
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5a783a35fdf41498d7aa6284102c98
+      internalID: -1896231462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 430
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf89e8567de54c544ac55c49b5708c52
+      internalID: 2078116068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 430
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4772e88a88602ca48a0270dd76b38c5a
+      internalID: 1889743011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_83
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 430
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0532259135f57614c89fb569d59d5dc1
+      internalID: 1735630514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_84
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 430
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771975073a752704383a04143766685a
+      internalID: 429895932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_85
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 430
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89637991cc77e4440a6066b42a733f6d
+      internalID: -1924011050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_86
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 430
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4104a34f2352f0d4b99c5d528762834d
+      internalID: -1452264679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_87
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 430
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92a83a5bd69e50419b3f05a37b94db5
+      internalID: 555591035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_88
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 430
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c05786c90e2b644b431da6ba401b98
+      internalID: 260824899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_89
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 430
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ee38b7b0c067c4eb63a21e9bbd71fc
+      internalID: -276016683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_90
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 430
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944c6d979d08d314c9f19c3ad72d9b9f
+      internalID: 1901241245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_91
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 430
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319de5c7085bcde4ba64baf82320fe71
+      internalID: -1779730926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_92
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 430
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6598bd1bda80c49bb02dd7f27bf0ee
+      internalID: 273069626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_99
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 300
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c622444b8dcbf31408bbbbcbaec6d72b
+      internalID: 745834542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_100
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 300
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd4de96b74aca146b92a3d55dc60c2b
+      internalID: 1681368407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_101
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 300
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d78bedd62ff624596874aff9b9bf76
+      internalID: 980110243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_102
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 301
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db10934dbf98d0c46a9aec06f3339576
+      internalID: 356256275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_103
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 300
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b379eaa01d7ac641830390a59e7eb93
+      internalID: -1379179129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_104
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 300
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65af57418d17f254191a2e7c3ce37717
+      internalID: 2121752976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_105
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 300
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89033e1c2143e444a6ebdb022f844dd
+      internalID: -386123546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_106
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 300
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0216329da155b04db5d39ab81b2d672
+      internalID: -1510513097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_107
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 300
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c42ec0b4296f3f4a893a07d58d33b56
+      internalID: -584587424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_108
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 300
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87a3e60384e9504b879cc2f4472f5ea
+      internalID: -1099742582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_109
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 300
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd29b4aea919b4044b5c73c14d7ac102
+      internalID: -1425398619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_118
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 170
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a36e0978f1f0604ca66f7329434ec3b
+      internalID: 646402853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_119
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 170
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11aefc7b81192f24fad41c3816e60b6c
+      internalID: 1795300535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_120
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 170
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6e7e3af49553b45a384b6948f6ab09
+      internalID: 1751566951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_121
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35406acac256d264f8f02fa6c1a87faa
+      internalID: -1750346100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_122
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f650c2a1e8be974daf236b34f67ebb0
+      internalID: 2131891310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_123
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2955b68472f934a824856c47ec5864
+      internalID: 1549430076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_124
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b219bf6a318d6f46998bbb75b90750c
+      internalID: -1696679824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_125
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a9158663b7ce640889a9a13a4558f1
+      internalID: 1946098709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_126
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f17d3d7b08d70f40a0d866d271cb27a
+      internalID: -2067173260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_127
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 170
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952fc33f404d61544a1a99772f4acd55
+      internalID: 1715272551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_128
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962af76fea8f94a438e17adf82c5d6ad
+      internalID: 2100307236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_129
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79169f204906c744c851c145f2336919
+      internalID: -1615370980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_130
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa70c66d25e658d42919ba1a01df1d44
+      internalID: 1053146931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_131
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69171c3b64e760540896b6daa151f766
+      internalID: 202111746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_132
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 170
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6964592372f462a4faeb661892918c2a
+      internalID: 1222775531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_133
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 170
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e9c58153615d94eaf1216549c0fe0d
+      internalID: 1335906273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_134
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 170
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e373156127cbe47ad32af13f23d1ec
+      internalID: 1466115955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_141
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 59
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5797c2b5fa600f4b94fe08c7eb6549e
+      internalID: 2117940731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_142
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 61
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605a68f0db13bda429d8f283fdeaa38d
+      internalID: -2019453986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_143
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 58
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b0b03c06cbb534eaee9c4851b6b4c0
+      internalID: 1311102778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_144
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 57
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8225661db5ab33748aa117f92b5664e5
+      internalID: -911882847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_145
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 58
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcc8dda6abef8545b9636c64e1e2e09
+      internalID: 918244561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_146
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 61
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12af288083fc4046864dafc0f590cec
+      internalID: -883573087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_147
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 59
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8912c1be38529df4e97648ac3eac0d8c
+      internalID: -1517250290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Personaje_148
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 57
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02a2de3deb0761489d06bca8a3031c0
+      internalID: -647896738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tile Personaje_66: -885567751
+      Tile Personaje_137: -43748709
+      Tile Personaje_42: -1147897877
+      Tile Personaje_40: 1046763262
+      Tile Personaje_54: -1248931094
+      Tile Personaje_93: 1678038985
+      Tile Personaje_161: 454859388
+      Tile Personaje_102: 356256275
+      Tile Personaje_99: 745834542
+      Tile Personaje_91: -1779730926
+      Tile Personaje_22: 1763479379
+      Tile Personaje_152: -1664151491
+      Tile Personaje_151: 981775841
+      Tile Personaje_79: 85433272
+      Tile Personaje_46: 21090213
+      Tile Personaje_8: 1748401041
+      Tile Personaje_92: 273069626
+      Tile Personaje_47: 1043547634
+      Tile Personaje_10: -1033310557
+      Tile Personaje_75: 736408297
+      Tile Personaje_76: 1970604166
+      Tile Personaje_142: -2019453986
+      Tile Personaje_107: -584587424
+      Tile Personaje_150: 325250174
+      Tile Personaje_140: 1597179681
+      Tile Personaje_158: 767530982
+      Tile Personaje_16: 2016054775
+      Tile Personaje_88: 260824899
+      Tile Personaje_133: 1335906273
+      Tile Personaje_153: -1250166204
+      Tile Personaje_33: -869976680
+      Tile Personaje_69: 1863658606
+      Tile Personaje_149: 1107969479
+      Tile Personaje_155: 1654062861
+      Tile Personaje_154: 2060111727
+      Tile Personaje_116: -1511942879
+      Tile Personaje_26: -1783099066
+      Tile Personaje_63: 891760450
+      Tile Personaje_56: -326753388
+      Tile Personaje_2: 1505633851
+      Tile Personaje_13: 89355184
+      Tile Personaje_104: 2121752976
+      Tile Personaje_41: 1736832152
+      Tile Personaje_110: -981495598
+      Tile Personaje_35: -26426037
+      Tile Personaje_78: -95381744
+      Tile Personaje_57: -358768488
+      Tile Personaje_18: 1285991966
+      Tile Personaje_62: 100214593
+      Tile Personaje_141: 2117940731
+      Tile Personaje_117: -163047000
+      Tile Personaje_90: 1901241245
+      Tile Personaje_3: -978340320
+      Tile Personaje_135: -1444263849
+      Tile Personaje_34: 1879767754
+      Tile Personaje_30: -1223184242
+      Tile Personaje_15: -1608980068
+      Tile Personaje_32: -557575074
+      Tile Personaje_49: 1987949917
+      Tile Personaje_84: 429895932
+      Tile Personaje_19: -483311795
+      Tile Personaje_108: -1099742582
+      Tile Personaje_129: -1615370980
+      Tile Personaje_115: -879072323
+      Tile Personaje_83: 1735630514
+      Tile Personaje_23: -710443056
+      Tile Personaje_82: 1889743011
+      Tile Personaje_7: 1892826964
+      Tile Personaje_114: -1817625429
+      Tile Personaje_21: -1422986057
+      Tile Personaje_37: 1911853367
+      Tile Personaje_50: 1317011896
+      Tile Personaje_73: 1688940586
+      Tile Personaje_85: -1924011050
+      Tile Personaje_95: -1501512188
+      Tile Personaje_144: -911882847
+      Tile Personaje_5: -1020445959
+      Tile Personaje_4: 787244460
+      Tile Personaje_6: -22629653
+      Tile Personaje_80: -1896231462
+      Tile Personaje_31: 362297241
+      Tile Personaje_96: 2024490842
+      Tile Personaje_109: -1425398619
+      Tile Personaje_61: -1693800799
+      Tile Personaje_86: -1452264679
+      Tile Personaje_77: -1652599823
+      Tile Personaje_9: 308950360
+      Tile Personaje_27: -114584300
+      Tile Personaje_98: 127525328
+      Tile Personaje_14: -738799216
+      Tile Personaje_130: 1053146931
+      Tile Personaje_101: 980110243
+      Tile Personaje_147: -1517250290
+      Tile Personaje_131: 202111746
+      Tile Personaje_45: -469638549
+      Tile Personaje_97: -365555237
+      Tile Personaje_145: 918244561
+      Tile Personaje_125: 1946098709
+      Tile Personaje_44: 1651157651
+      Tile Personaje_159: -1996276861
+      Tile Personaje_111: 1970068600
+      Tile Personaje_157: 1851610477
+      Tile Personaje_81: 2078116068
+      Tile Personaje_128: 2100307236
+      Tile Personaje_58: 702363341
+      Tile Personaje_48: -281164356
+      Tile Personaje_59: -807155545
+      Tile Personaje_124: -1696679824
+      Tile Personaje_70: -1069778707
+      Tile Personaje_148: -647896738
+      Tile Personaje_120: 1751566951
+      Tile Personaje_138: 815199028
+      Tile Personaje_11: -963314824
+      Tile Personaje_72: 650660707
+      Tile Personaje_143: 1311102778
+      Tile Personaje_127: 1715272551
+      Tile Personaje_29: -1561117132
+      Tile Personaje_28: -644827056
+      Tile Personaje_65: 1703512742
+      Tile Personaje_36: -1793151556
+      Tile Personaje_1: 1016815658
+      Tile Personaje_39: -1770164553
+      Tile Personaje_87: 555591035
+      Tile Personaje_160: 22824746
+      Tile Personaje_132: 1222775531
+      Tile Personaje_146: -883573087
+      Tile Personaje_118: 646402853
+      Tile Personaje_74: -2139185392
+      Tile Personaje_121: -1750346100
+      Tile Personaje_52: 1684383947
+      Tile Personaje_60: 972854684
+      Tile Personaje_38: -1649933935
+      Tile Personaje_156: -1882788268
+      Tile Personaje_51: 1508828729
+      Tile Personaje_139: 260287594
+      Tile Personaje_20: 1284956112
+      Tile Personaje_17: -1061681891
+      Tile Personaje_68: 454089158
+      Tile Personaje_113: 1882841146
+      Tile Personaje_134: 1466115955
+      Tile Personaje_105: -386123546
+      Tile Personaje_24: 1111862340
+      Tile Personaje_55: -1616664735
+      Tile Personaje_126: -2067173260
+      Tile Personaje_89: -276016683
+      Tile Personaje_53: -1328292048
+      Tile Personaje_64: -1895131315
+      Tile Personaje_100: 1681368407
+      Tile Personaje_25: -323163274
+      Tile Personaje_136: 596786020
+      Tile Personaje_0: 637295136
+      Tile Personaje_43: -1189750354
+      Tile Personaje_123: 1549430076
+      Tile Personaje_106: -1510513097
+      Tile Personaje_94: 1235984501
+      Tile Personaje_119: 1795300535
+      Tile Personaje_122: 2131891310
+      Tile Personaje_12: -414037057
+      Tile Personaje_112: -1456157543
+      Tile Personaje_71: -1991792474
+      Tile Personaje_67: 1276556535
+      Tile Personaje_103: -1379179129
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
