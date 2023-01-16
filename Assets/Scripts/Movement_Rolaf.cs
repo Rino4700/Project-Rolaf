@@ -22,32 +22,39 @@ public class Movement_Rolaf : MonoBehaviour
     {
         Movement();
         IsGrounded();
-    }
-
-    void Movement()
+        IsNotGrounded();
+        OnDrawGizmosSelected();
     {
-        if (Input.GetKey(KeyCode.A))
-        {
-            animator.Play("WalkAnimation");
-            rend.flipX = true;
-            transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
         }
-        else if(Input.GetKey(KeyCode.D))
+
+        void Movement()
         {
-            animator.Play("WalkAnimation");
-            rend.flipX = false;
-            transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
+            if (Input.GetKey(KeyCode.A))
+            {
+                animator.Play("WalkAnimation");
+                rend.flipX = true;
+                transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                animator.Play("WalkAnimation");
+                rend.flipX = false;
+                transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
+            }
+            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+            {
+
+                rb.AddForce(new Vector2(0, 2000));
+            }
+            else if (IsNotGrounded())
+            {
+                animator.Play("JumpAnimation");
+            }
+            else
+            {
+                animator.Play("IdleAnimation");
+            }
         }
-        else
-        {
-            animator.Play("IdleAnimation");
-        }
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-        {
-            rb.AddForce(new Vector2(0, 2000));
-        }
-        
-    }
 
         bool IsGrounded()
         {
@@ -65,5 +72,26 @@ public class Movement_Rolaf : MonoBehaviour
 
             return false;
         }
+        bool IsNotGrounded()
+        {
+            RaycastHit2D resultado = Physics2D.Raycast(transform.position,
+                Vector2.down, rayDistance, Ground.value);
 
+            if (resultado)
+            {
+                Debug.Log(resultado.collider.gameObject.name);
+                if (resultado.collider.gameObject.CompareTag("suelo"))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+        void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
+        }
+    }
 }

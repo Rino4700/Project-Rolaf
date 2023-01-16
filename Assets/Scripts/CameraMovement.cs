@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     public GameObject Player;
+    private float x;
     void Start()
     {
         
@@ -12,6 +13,7 @@ public class CameraMovement : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(new Vector3(Player.transform.position.x, 0, 0));
+        float x = Player.transform.position.x;
+        transform.position = new Vector3(x, transform.position.y, transform.position.z);
     }
 }

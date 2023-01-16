@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    public float velocity = 0;
-    public GameObject Target;
+    public float speed = 1;
+    public GameObject Player;
 
     void Start()
     {
@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
+        transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, speed * Time.deltaTime);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
