@@ -22,7 +22,6 @@ public class Movement_Rolaf : MonoBehaviour
     {
         Movement();
         IsGrounded();
-        IsNotGrounded();
         OnDrawGizmosSelected();
     {
         }
@@ -31,28 +30,25 @@ public class Movement_Rolaf : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A))
             {
-                animator.Play("WalkAnimation");
+                animator.SetBool("IsWalking", true);
                 rend.flipX = true;
                 transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
             }
             else if (Input.GetKey(KeyCode.D))
             {
-                animator.Play("WalkAnimation");
+                animator.SetBool("IsWalking", true);
                 rend.flipX = false;
                 transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
             }
-            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-            {
-
-                rb.AddForce(new Vector2(0, 2000));
-            }
-            else if (IsNotGrounded())
-            {
-                animator.Play("JumpAnimation");
-            }
             else
             {
-                animator.Play("IdleAnimation");
+                animator.SetBool("IsGrounded", true);
+                animator.SetBool("IsWalking", false);
+            }
+            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+            {
+                animator.Play("JumpAnimation");
+                rb.AddForce(new Vector2(0, 2000));
             }
         }
 
@@ -71,22 +67,6 @@ public class Movement_Rolaf : MonoBehaviour
             }
 
             return false;
-        }
-        bool IsNotGrounded()
-        {
-            RaycastHit2D resultado = Physics2D.Raycast(transform.position,
-                Vector2.down, rayDistance, Ground.value);
-
-            if (resultado)
-            {
-                Debug.Log(resultado.collider.gameObject.name);
-                if (resultado.collider.gameObject.CompareTag("suelo"))
-                {
-                    return false;
-                }
-            }
-
-            return true;
         }
         void OnDrawGizmosSelected()
         {

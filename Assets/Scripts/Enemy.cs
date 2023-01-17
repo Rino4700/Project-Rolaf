@@ -5,25 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 1;
+    public float velocity = 1;
     public GameObject Player;
+    SpriteRenderer rend;
+    private Rigidbody2D rb;
 
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
+        rend = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, velocity * Time.deltaTime);
+        if (rb.velocity.x < 0)
+        {
+           rend.flipX = true;
+        }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.GetComponent<Movement_Rolaf>())
+        if (collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        if (collision.GetComponent<Deathzone>())
+        if (collision.gameObject.tag == "Deathzone")
         {
             Destroy(gameObject);
         }
