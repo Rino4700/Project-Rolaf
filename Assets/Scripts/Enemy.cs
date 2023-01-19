@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
         rend = GetComponent<SpriteRenderer>();
     }
@@ -19,9 +20,13 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, velocity * Time.deltaTime);
-        if (rb.velocity.x < 0)
+        if (Player.transform.position.x > transform.position.x)
         {
            rend.flipX = true;
+        }
+        else
+        {
+            rend.flipX = false;
         }
     }
      void OnCollisionEnter2D(Collision2D collision)
