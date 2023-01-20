@@ -52,6 +52,22 @@ public class Movement_Rolaf : MonoBehaviour
             }
         }
 
+        bool IsNotGrounded()
+        {
+            RaycastHit2D resultado = Physics2D.Raycast(transform.position,
+                Vector2.down, rayDistance, Ground.value);
+
+            if (resultado)
+            {
+                Debug.Log(resultado.collider.gameObject.name);
+                if (resultado.collider.gameObject.CompareTag("suelo"))
+                {
+                    return false;
+                }
+            }
+            animator.Play("JumpAnimation");
+            return false;
+        }
         bool IsGrounded()
         {
             RaycastHit2D resultado = Physics2D.Raycast(transform.position,
