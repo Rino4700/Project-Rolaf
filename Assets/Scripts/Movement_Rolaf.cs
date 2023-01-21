@@ -11,6 +11,7 @@ public class Movement_Rolaf : MonoBehaviour
     private Animator animator;
     SpriteRenderer rend;
 
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,71 +24,58 @@ public class Movement_Rolaf : MonoBehaviour
         Movement();
         IsGrounded();
         OnDrawGizmosSelected();
+    }
+    void Movement()
     {
-        }
-
-        void Movement()
+        if (Input.GetKey(KeyCode.A))
         {
-            if (Input.GetKey(KeyCode.A))
-            {
-                animator.SetBool("IsWalking", true);
-                rend.flipX = true;
-                transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                animator.SetBool("IsWalking", true);
-                rend.flipX = false;
-                transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
-            }
-            else
-            {
-                animator.SetBool("IsGrounded", true);
-                animator.SetBool("IsWalking", false);
-            }
-            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-            {
-                animator.Play("JumpAnimation");
-                rb.AddForce(new Vector2(0, 2000));
-            }
+            animator.SetBool("IsWalking", true);
+            rend.flipX = true;
+            transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
         }
-
-        bool IsNotGrounded()
+        else if (Input.GetKey(KeyCode.D))
         {
-            RaycastHit2D resultado = Physics2D.Raycast(transform.position,
-                Vector2.down, rayDistance, Ground.value);
-
-            if (resultado)
-            {
-                Debug.Log(resultado.collider.gameObject.name);
-                if (resultado.collider.gameObject.CompareTag("suelo"))
-                {
-                    return false;
-                }
-            }
+            animator.SetBool("IsWalking", true);
+            rend.flipX = false;
+            transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+            animator.SetBool("IsGrounded", true);
+            
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        {
             animator.Play("JumpAnimation");
-            return false;
+            rb.AddForce(new Vector2(0, 2000));
         }
-        bool IsGrounded()
+        if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit2D resultado = Physics2D.Raycast(transform.position,
-                Vector2.down, rayDistance, Ground.value);
-
-            if (resultado)
-            {
-                Debug.Log(resultado.collider.gameObject.name);
-                if (resultado.collider.gameObject.CompareTag("suelo"))
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-        void OnDrawGizmosSelected()
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
+            animator.Play("JumpAnimation");
         }
     }
+    bool IsGrounded()
+    {
+        RaycastHit2D resultado = Physics2D.Raycast(transform.position,Vector2.down, rayDistance, Ground.value);
+
+
+        if (resultado)
+        {
+            Debug.Log(resultado.collider.gameObject.name);
+            if (resultado.collider.gameObject.CompareTag("suelo"))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
+    }
+
 }
+

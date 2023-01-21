@@ -3,33 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Enemy : MonoBehaviour
+public class Skeleton : MonoBehaviour
 {
-    public float velocity = 1;
     public GameObject Player;
     SpriteRenderer rend;
     private Rigidbody2D rb;
-
+    public GameObject ArrowPrefab;
+    public float maxTime = 20;
+    public float currentTime;
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
         rend = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, velocity * Time.deltaTime);
+        Shoots();
         if (Player.transform.position.x > transform.position.x)
         {
-           rend.flipX = true;
+            rend.flipX = true;
         }
         else
         {
             rend.flipX = false;
         }
     }
-     void OnCollisionEnter2D(Collision2D collision)
+    private void Shoots()
+    {
+        currentTime += Time.deltaTime;
+        if (currentTime >= maxTime)
+        {
+            currentTime = 0;
+            GameObject Arrow = Instantiate(ArrowPrefab, transform.position, Quaternion.identity);
+        }
+    }
+        void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {

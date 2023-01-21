@@ -6,7 +6,6 @@ public class HitBoxEnemy : MonoBehaviour
 {
     void Start()
     {
-        
     }
 
     void Update()
