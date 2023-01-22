@@ -17,6 +17,10 @@ public class Arrow : MonoBehaviour
         rend = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
+        Flip();
+    }
+    void Flip()
+    {
         if (Player.transform.position.x > transform.position.x)
         {
             rend.flipX = true;

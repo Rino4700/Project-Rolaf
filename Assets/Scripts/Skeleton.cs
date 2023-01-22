@@ -20,14 +20,7 @@ public class Skeleton : MonoBehaviour
     void Update()
     {
         Shoots();
-        if (Player.transform.position.x > transform.position.x)
-        {
-            rend.flipX = true;
-        }
-        else
-        {
-            rend.flipX = false;
-        }
+        Flip();
     }
     private void Shoots()
     {
@@ -36,6 +29,17 @@ public class Skeleton : MonoBehaviour
         {
             currentTime = 0;
             GameObject Arrow = Instantiate(ArrowPrefab, transform.position, Quaternion.identity);
+        }
+    }
+    private void Flip()
+    {
+        if (Player.transform.position.x > transform.position.x)
+        {
+            rend.flipX = true;
+        }
+        else
+        {
+            rend.flipX = false;
         }
     }
         void OnCollisionEnter2D(Collision2D collision)

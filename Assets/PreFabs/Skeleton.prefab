@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9db9a7aa5215ff45a38e11fff28613f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 4136930544695050810, guid: 7c6b8f97faa645a40b39f8a62978bc6f, type: 3}
   ArrowPrefab: {fileID: 627265358417759845, guid: a940f1ee2b706024d9dd1a5c0b37c1af, type: 3}
   maxTime: 2
   currentTime: 0
