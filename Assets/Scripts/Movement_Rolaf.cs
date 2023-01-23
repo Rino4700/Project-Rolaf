@@ -50,10 +50,6 @@ public class Movement_Rolaf : MonoBehaviour
             animator.Play("JumpAnimation");
             rb.AddForce(new Vector2(0, 2000));
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            animator.Play("JumpAnimation");
-        }
     }
     bool IsGrounded()
     {

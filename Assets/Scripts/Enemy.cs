@@ -20,9 +20,13 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, velocity * Time.deltaTime);
+        Flip();
+    }
+    private void Flip()
+    {
         if (Player.transform.position.x > transform.position.x)
         {
-           rend.flipX = true;
+            rend.flipX = true;
         }
         else
         {
