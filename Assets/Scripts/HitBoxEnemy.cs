@@ -12,7 +12,7 @@ public class HitBoxEnemy : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //Si el objeto colisiona con el jugador, destruirá el objeto "padre".
     {
         if (collision.GetComponent<Movement_Rolaf>())
         {

@@ -13,7 +13,7 @@ public class Deathzone : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //Si el jugador colisiona con el objeto, la escena se resetea.
     {
         if (collision.GetComponent<Movement_Rolaf>())
         {

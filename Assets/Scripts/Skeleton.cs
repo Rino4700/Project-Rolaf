@@ -7,13 +7,11 @@ public class Skeleton : MonoBehaviour
 {
     public GameObject Player;
     SpriteRenderer rend;
-    private Rigidbody2D rb;
     public GameObject ArrowPrefab;
     public float maxTime = 20;
     public float currentTime;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         rend = GetComponent<SpriteRenderer>();
     }
 
@@ -25,7 +23,7 @@ public class Skeleton : MonoBehaviour
     private void Shoots()
     {
         currentTime += Time.deltaTime;
-        if (currentTime >= maxTime)
+        if (currentTime >= maxTime) //Cuando el contador llegue a un numero maximo de tiempo, el objeto creara un PreFab de la flecha.
         {
             currentTime = 0;
             GameObject Arrow = Instantiate(ArrowPrefab, transform.position, Quaternion.identity);
@@ -33,7 +31,7 @@ public class Skeleton : MonoBehaviour
     }
     private void Flip()
     {
-        if (Player.transform.position.x > transform.position.x)
+        if (Player.transform.position.x > transform.position.x) //Cuando el jugador se encuentre en una posicion mayor a la del objeto, dicho objeto se girara horizontalmente.
         {
             rend.flipX = true;
         }
@@ -42,7 +40,7 @@ public class Skeleton : MonoBehaviour
             rend.flipX = false;
         }
     }
-        void OnCollisionEnter2D(Collision2D collision)
+        void OnCollisionEnter2D(Collision2D collision) //Cuando el colider del objeto colisione con el del jugador la escena se resetea.
     {
         if (collision.gameObject.tag == "Player")
         {

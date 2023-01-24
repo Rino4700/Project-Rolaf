@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    public float maxY = 6;
     public GameObject Player;
     void Start()
     {
@@ -14,7 +15,7 @@ public class CameraMovement : MonoBehaviour
     {
         float x = Player.transform.position.x;
         float y = Player.transform.position.y;
-        if(Player.transform.position.y >= 6)
+        if(Player.transform.position.y >= maxY) //Si la camara supera una posicion Y, la camara se movera hacia arriba.
         {
             transform.position = new Vector3(x, y, transform.position.z);
         }

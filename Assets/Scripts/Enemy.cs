@@ -8,23 +8,21 @@ public class Enemy : MonoBehaviour
     public float velocity = 1;
     public GameObject Player;
     SpriteRenderer rend;
-    private Rigidbody2D rb;
 
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
-        rb = GetComponent<Rigidbody2D>();
         rend = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, velocity * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, velocity * Time.deltaTime); //El zombi seguira al jugador directamente desde la posición X.
         Flip();
     }
     private void Flip()
     {
-        if (Player.transform.position.x > transform.position.x)
+        if (Player.transform.position.x > transform.position.x) //Cuando el jugador se encuentre en una posicion mayor a la del objeto, dicho objeto se girara horizontalmente.
         {
             rend.flipX = true;
         }
@@ -33,7 +31,7 @@ public class Enemy : MonoBehaviour
             rend.flipX = false;
         }
     }
-     void OnCollisionEnter2D(Collision2D collision)
+     void OnCollisionEnter2D(Collision2D collision) //Cuando el colider del objeto colisione con el del jugador la escena se resetea.
     {
         if (collision.gameObject.tag == "Player")
         {

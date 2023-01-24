@@ -23,19 +23,18 @@ public class Movement_Rolaf : MonoBehaviour
     {
         Movement();
         IsGrounded();
-        OnDrawGizmosSelected();
     }
     void Movement()
     {
         if (Input.GetKey(KeyCode.A))
         {
-            animator.SetBool("IsWalking", true);
+            animator.SetBool("IsWalking", true); //Hago que cuando presione A, le diga al animator que "IsWalking" es true y que el sprite del jugador se gire.
             rend.flipX = true;
             transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D)) 
         {
-            animator.SetBool("IsWalking", true);
+            animator.SetBool("IsWalking", true); //Hago que cuando presione D, le diga al animator que "IsWalking" es true y el sprite del jugador no se gire.
             rend.flipX = false;
             transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
         }
@@ -45,13 +44,13 @@ public class Movement_Rolaf : MonoBehaviour
             animator.SetBool("IsGrounded", true);
             
         }
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded()) 
         {
-            animator.Play("JumpAnimation");
+            animator.Play("JumpAnimation"); //Hago que cuando presione la tecla espacio, le diga al animator que "IsWalking" es true.
             rb.AddForce(new Vector2(0, 2000));
         }
     }
-    bool IsGrounded()
+    bool IsGrounded() //El raycast detectara si el objeto con el que colisiona, tiene el tag de "suelo" devolvera true.
     {
         RaycastHit2D resultado = Physics2D.Raycast(transform.position,Vector2.down, rayDistance, Ground.value);
 
@@ -67,7 +66,7 @@ public class Movement_Rolaf : MonoBehaviour
 
         return false;
     }
-    void OnDrawGizmosSelected()
+    void OnDrawGizmosSelected() //Asigno al raycast un color y una direccion hacia donde apuntar.
     {
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
