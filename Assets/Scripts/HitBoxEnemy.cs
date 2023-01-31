@@ -16,6 +16,7 @@ public class HitBoxEnemy : MonoBehaviour
     {
         if (collision.GetComponent<Movement_Rolaf>())
         {
+            GameManager.instance.AddScore(10);
             Destroy(transform.parent.gameObject);
         }
     }

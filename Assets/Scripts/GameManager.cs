@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    private int Score = 0;
+    public int Score = 0;
     private float time = 0;
 
     void Awake()
@@ -40,4 +41,8 @@ public class GameManager : MonoBehaviour
         return time;
     }
 
+    public void ChangeScene(string name) 
+    {
+        SceneManager.LoadScene(name);
+    }
 }

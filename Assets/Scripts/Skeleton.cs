@@ -44,6 +44,7 @@ public class Skeleton : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            GameManager.instance.Score = 0;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
