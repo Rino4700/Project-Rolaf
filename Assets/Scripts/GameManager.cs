@@ -44,5 +44,6 @@ public class GameManager : MonoBehaviour
     public void ChangeScene(string name) 
     {
         SceneManager.LoadScene(name);
+        AudioManager.instance.ClearAudioList();
     }
 }

@@ -13,6 +13,6 @@ public class UpdateTimer : MonoBehaviour
 
     void Update()
     {
-        timeText.text = "Tiempo: " + GameManager.instance.GetTime();
+        timeText.text = "Time: " + GameManager.instance.GetTime();
     }
 }
