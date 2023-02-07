@@ -8,6 +8,7 @@ TagManager:
   - suelo
   - Deathzone
   - Hitbox_Attack_Player
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - Audio
   - 
   - 
   - 

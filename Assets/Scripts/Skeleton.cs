@@ -14,6 +14,7 @@ public class Skeleton : MonoBehaviour
     public AudioClip PlayerDeathAudio;
     [Range(0, 1)]
     public float volumemusic;
+    public bool InRange;
 
     void Start()
     {
@@ -30,9 +31,12 @@ public class Skeleton : MonoBehaviour
         currentTime += Time.deltaTime;
         if (currentTime >= maxTime) //Cuando el contador llegue a un numero maximo de tiempo, el objeto creara un PreFab de la flecha.
         {
-            AudioManager.instance.PlayAudio(BowShoot);
             currentTime = 0;
             GameObject Arrow = Instantiate(ArrowPrefab, transform.position, Quaternion.identity);
+            if (InRange == true)
+            {
+                AudioManager.instance.PlayAudio(BowShoot);
+            }
         }
     }
     private void Flip()
@@ -53,6 +57,13 @@ public class Skeleton : MonoBehaviour
             GameManager.instance.Score = 0;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             AudioManager.instance.PlayAudio(PlayerDeathAudio);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Audio")
+        {
+            InRange = true;
         }
     }
 }

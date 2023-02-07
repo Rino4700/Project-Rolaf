@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement_Rolaf : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Movement_Rolaf : MonoBehaviour
     public AudioClip WalkAudio;
     [Range(0, 1)]
     public float volumemusic;
+    public GameObject SoundRange;
 
     void Start()
     {
@@ -77,6 +79,13 @@ public class Movement_Rolaf : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
-
+    void OnCollisionEnter2D(Collision2D collision) //Cuando el colider del objeto colisione con el del jugador la escena se resetea.
+    {
+        if (collision.gameObject.tag == "Deathzone")
+        {
+            GameManager.instance.Score = 100;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
 }
 
