@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class HitBoxEnemy : MonoBehaviour
 {
+    public AudioClip ZombieDeath;
+    [Range(0, 1)]
+    public float volumemusic;
     void Start()
     {
     }
@@ -18,6 +21,7 @@ public class HitBoxEnemy : MonoBehaviour
         {
             GameManager.instance.AddScore(10);
             Destroy(transform.parent.gameObject);
+            AudioManager.instance.PlayAudio(ZombieDeath);
         }
     }
 }

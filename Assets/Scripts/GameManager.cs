@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int Score = 0;
-    private float time = 0;
+    public float time = 0;
 
     void Awake()
     {
@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
     public float GetTime() 
     {
-        return time;
+        return Mathf.Round(time);
     }
 
     public void ChangeScene(string name) 

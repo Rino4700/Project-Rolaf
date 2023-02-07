@@ -8,6 +8,9 @@ public class Enemy : MonoBehaviour
     public float velocity = 1;
     public GameObject Player;
     SpriteRenderer rend;
+    public AudioClip PlayerDeathAudio;
+    [Range(0, 1)]
+    public float volumemusic;
 
     void Start()
     {
@@ -37,6 +40,7 @@ public class Enemy : MonoBehaviour
         {
             GameManager.instance.Score = 0;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            AudioManager.instance.PlayAudio(PlayerDeathAudio);
         }
     }
 }

@@ -15,11 +15,13 @@ public class ButtonFunctions : MonoBehaviour
     }
     public void ChangeScene(string name)
     {
+        GameManager.instance.time = 0;
         GameManager.instance.ChangeScene(name);
     }
 
     public void ChangeGame(string name)
     {
+        GameManager.instance.time = 0;
         GameManager.instance.ChangeScene(name);
     }
 }

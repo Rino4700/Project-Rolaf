@@ -10,7 +10,10 @@ public class Movement_Rolaf : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     SpriteRenderer rend;
-
+    public AudioClip JumpAudio;
+    public AudioClip WalkAudio;
+    [Range(0, 1)]
+    public float volumemusic;
 
     void Start()
     {
@@ -28,12 +31,14 @@ public class Movement_Rolaf : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
+
             animator.SetBool("IsWalking", true); //Hago que cuando presione A, le diga al animator que "IsWalking" es true y que el sprite del jugador se gire.
             rend.flipX = true;
             transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
         }
         else if (Input.GetKey(KeyCode.D)) 
         {
+
             animator.SetBool("IsWalking", true); //Hago que cuando presione D, le diga al animator que "IsWalking" es true y el sprite del jugador no se gire.
             rend.flipX = false;
             transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
@@ -46,6 +51,7 @@ public class Movement_Rolaf : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded()) 
         {
+            AudioManager.instance.PlayAudio(JumpAudio);
             animator.Play("JumpAnimation"); //Hago que cuando presione la tecla espacio, le diga al animator que "IsWalking" es true.
             rb.AddForce(new Vector2(0, 2000));
         }
