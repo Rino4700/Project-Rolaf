@@ -6,22 +6,16 @@ public class ButtonFunctions : MonoBehaviour
 {
     void Start()
     {
-        
+
     }
 
-    void Update()
-    {
-        
-    }
     public void ChangeScene(string name)
     {
         GameManager.instance.time = 0;
         GameManager.instance.ChangeScene(name);
     }
-
-    public void ChangeGame(string name)
+    public void QuitGame()
     {
-        GameManager.instance.time = 0;
-        GameManager.instance.ChangeScene(name);
+        Application.Quit();
     }
 }

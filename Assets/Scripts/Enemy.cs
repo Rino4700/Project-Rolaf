@@ -39,8 +39,8 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             GameManager.instance.Score = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            AudioManager.instance.PlayAudio(PlayerDeathAudio);
+            GameManager.instance.ChangeScene(SceneManager.GetActiveScene().name);
+            AudioManager.instance.PlayAudio(PlayerDeathAudio,volumemusic);
         }
     }
 }
