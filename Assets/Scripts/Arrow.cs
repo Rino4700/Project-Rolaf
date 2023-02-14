@@ -21,7 +21,7 @@ public class Arrow : MonoBehaviour
     }
     void Flip()
     {
-        if (Player.transform.position.x > transform.position.x)
+        if (Player.transform.position.x > transform.position.x) //Cuando el jugador se encuentre en una posicion mayor a la del objeto, dicho objeto se girara horizontalmente.
         {
             rend.flipX = true;
             rb.velocity = new Vector2(10, 0);
@@ -35,18 +35,19 @@ public class Arrow : MonoBehaviour
 
     void Update()
     {
-        currentTime += Time.deltaTime;
+        currentTime += Time.deltaTime; //Cuando la flecha alcance o supere el tiempo maximo, la flecha se destruirá.
         if (currentTime >= maxTime)
         {
             Destroy(gameObject);
             currentTime = 0;
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)  //Cuando el colider del objeto colisione con el colider del Meteor se detruya
+    private void OnTriggerEnter2D(Collider2D collision)  //Cuando el colider del objeto colisione con el del jugador la escena se resetea.
     {
         if (collision.GetComponent<Movement_Rolaf>())
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameManager.instance.Score = 0;
+            GameManager.instance.ChangeScene(SceneManager.GetActiveScene().name);
         }
     }
 }
