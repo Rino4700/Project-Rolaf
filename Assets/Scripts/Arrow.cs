@@ -47,7 +47,7 @@ public class Arrow : MonoBehaviour
         if (collision.GetComponent<Movement_Rolaf>())
         {
             GameManager.instance.Score = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            GameManager.instance.ChangeScene(SceneManager.GetActiveScene().name);
         }
     }
 }

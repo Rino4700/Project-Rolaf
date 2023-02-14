@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class HitBoxEnemy : MonoBehaviour
+public class Coin : MonoBehaviour
 {
-    public AudioClip ZombieDeath;
+    public AudioClip CoinSound;
     [Range(0, 1)]
     public float volumemusic;
+
     void Start()
     {
+        
     }
 
     void Update()
@@ -19,9 +22,9 @@ public class HitBoxEnemy : MonoBehaviour
     {
         if (collision.GetComponent<Movement_Rolaf>())
         {
-            GameManager.instance.AddScore(20);
-            Destroy(transform.parent.gameObject);
-            AudioManager.instance.PlayAudio(ZombieDeath,volumemusic);
+            AudioManager.instance.PlayAudio(CoinSound,volumemusic);
+            GameManager.instance.AddScore(10);
+            Destroy(gameObject);
         }
     }
 }
