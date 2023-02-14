@@ -57,10 +57,6 @@ public class Movement_Rolaf : MonoBehaviour
             animator.Play("JumpAnimation"); //Hago que cuando presione la tecla espacio, le diga al animator que "IsWalking" es true.
             rb.AddForce(new Vector2(0, 2000));
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            animator.Play("JumpAnimation");
-        }
     }
     bool IsGrounded() //El raycast detectara si el objeto con el que colisiona, tiene el tag de "suelo" devolvera true.
     {
