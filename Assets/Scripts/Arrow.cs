@@ -11,6 +11,10 @@ public class Arrow : MonoBehaviour
     public float speed = 20;
     public float maxTime = 2;
     float currentTime;
+    public AudioClip PlayerDeathAudio;
+    [Range(0, 1)]
+    public float volumemusic;
+
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
@@ -48,6 +52,7 @@ public class Arrow : MonoBehaviour
         {
             GameManager.instance.Score = 0;
             GameManager.instance.ChangeScene(SceneManager.GetActiveScene().name);
+            AudioManager.instance.PlayAudio(PlayerDeathAudio, volumemusic);
         }
     }
 }

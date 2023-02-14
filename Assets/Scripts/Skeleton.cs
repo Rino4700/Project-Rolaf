@@ -59,7 +59,7 @@ public class Skeleton : MonoBehaviour
             AudioManager.instance.PlayAudio(PlayerDeathAudio,volumemusic);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //Cuando el colider del objeto colisione con el trigger de rango de audio, reproducira el sonido de disparo.
     {
         if (collision.gameObject.tag == "Audio")
         {

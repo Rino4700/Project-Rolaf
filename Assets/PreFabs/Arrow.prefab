@@ -104,6 +104,8 @@ MonoBehaviour:
   rb: {fileID: -7968661428657535980}
   speed: 20
   maxTime: 5
+  PlayerDeathAudio: {fileID: 8300000, guid: 85802cbd4eb7e57499628381958d1797, type: 3}
+  volumemusic: 0.2
 --- !u!61 &-387717103240379956
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ TagManager:
   - Deathzone
   - Hitbox_Attack_Player
   - Audio
+  - Final
   layers:
   - Default
   - TransparentFX
