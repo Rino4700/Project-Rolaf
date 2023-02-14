@@ -19,9 +19,9 @@ public class HitBoxEnemy : MonoBehaviour
     {
         if (collision.GetComponent<Movement_Rolaf>())
         {
-            GameManager.instance.AddScore(20);
+            GameManager.instance.AddScore(10);
             Destroy(transform.parent.gameObject);
-            AudioManager.instance.PlayAudio(ZombieDeath,volumemusic);
+            AudioManager.instance.PlayAudio(ZombieDeath);
         }
     }
 }

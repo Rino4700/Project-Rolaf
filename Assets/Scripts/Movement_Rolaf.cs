@@ -53,7 +53,7 @@ public class Movement_Rolaf : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded()) 
         {
-            AudioManager.instance.PlayAudio(JumpAudio,volumemusic);
+            AudioManager.instance.PlayAudio(JumpAudio);
             animator.Play("JumpAnimation"); //Hago que cuando presione la tecla espacio, le diga al animator que "IsWalking" es true.
             rb.AddForce(new Vector2(0, 2000));
         }

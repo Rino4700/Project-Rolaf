@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Deathzone : MonoBehaviour
 {
+    public float maxTime = 2;
+    public float currentTime = 0;
     public AudioClip FallAudio;
     [Range(0, 1)]
     public float volumemusic;
@@ -13,9 +15,13 @@ public class Deathzone : MonoBehaviour
     {
         if (collision.GetComponent<Movement_Rolaf>())
         {
-            AudioManager.instance.PlayAudio(FallAudio,volumemusic);
-            GameManager.instance.Score = 0;
-            GameManager.instance.ChangeScene(SceneManager.GetActiveScene().name);
+            currentTime += Time.deltaTime;
+            AudioManager.instance.PlayAudio(FallAudio);
+            if (currentTime >= maxTime)
+            {
+                GameManager.instance.Score = 0;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
 }

@@ -10,8 +10,8 @@ public class Skeleton : MonoBehaviour
     public GameObject ArrowPrefab;
     public float maxTime = 20;
     public float currentTime;
-    public AudioClip PlayerDeathAudio;
     public AudioClip BowShoot;
+    public AudioClip PlayerDeathAudio;
     [Range(0, 1)]
     public float volumemusic;
     public bool InRange;
@@ -35,7 +35,7 @@ public class Skeleton : MonoBehaviour
             GameObject Arrow = Instantiate(ArrowPrefab, transform.position, Quaternion.identity);
             if (InRange == true)
             {
-                AudioManager.instance.PlayAudio(BowShoot,volumemusic);
+                AudioManager.instance.PlayAudio(BowShoot);
             }
         }
     }
@@ -55,8 +55,8 @@ public class Skeleton : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             GameManager.instance.Score = 0;
-            GameManager.instance.ChangeScene(SceneManager.GetActiveScene().name);
-            AudioManager.instance.PlayAudio(PlayerDeathAudio,volumemusic);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            AudioManager.instance.PlayAudio(PlayerDeathAudio);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
