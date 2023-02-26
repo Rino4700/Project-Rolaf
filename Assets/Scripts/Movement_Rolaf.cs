@@ -39,19 +39,20 @@ public class Movement_Rolaf : MonoBehaviour
 
                 animator.SetBool("IsWalking", true); //Hago que cuando presione A, le diga al animator que "IsWalking" es true y que el sprite del jugador se gire.
                 rend.flipX = true;
-                transform.Translate(new Vector3(-velocity * Time.deltaTime, 0, 0));
+                rb.velocity = new Vector2(-velocity, rb.velocity.y);
             }
             else if (Input.GetKey(KeyCode.D))
             {
 
                 animator.SetBool("IsWalking", true); //Hago que cuando presione D, le diga al animator que "IsWalking" es true y el sprite del jugador no se gire.
                 rend.flipX = false;
-                transform.Translate(new Vector3(velocity * Time.deltaTime, 0, 0));
+                rb.velocity = new Vector2(velocity, rb.velocity.y);
             }
             else
             {
                 animator.SetBool("IsWalking", false);
                 animator.SetBool("IsGrounded", true);
+                rb.velocity = new Vector2(rb.velocity.x/1.12f, rb.velocity.y); 
 
             }
             if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
